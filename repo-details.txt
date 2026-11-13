@@ -1,0 +1,3 @@
+GitHub name: driftwatch
+Description: Reference-aware ML drift monitoring with PSI, Jensen-Shannon divergence and CSV reports.
+Topics: python,mlops,monitoring,data-science

@@ -1,0 +1,33 @@
+{
+  "status": "alert",
+  "method": "reference-fitted PSI and categorical Jensen-Shannon divergence",
+  "results": [
+    {
+      "feature": "basket_value",
+      "metric": "psi",
+      "value": 1.627835,
+      "threshold": 0.2,
+      "alert": true,
+      "reference_count": 500,
+      "current_count": 500
+    },
+    {
+      "feature": "orders_per_day",
+      "metric": "psi",
+      "value": 0.012151,
+      "threshold": 0.2,
+      "alert": false,
+      "reference_count": 500,
+      "current_count": 500
+    },
+    {
+      "feature": "channel",
+      "metric": "js",
+      "value": 0.040306,
+      "threshold": 0.1,
+      "alert": false,
+      "reference_count": 500,
+      "current_count": 500
+    }
+  ]
+}
