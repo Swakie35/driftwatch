@@ -1,5 +1,7 @@
 # Driftwatch
 
+[![CI](https://github.com/Swakie35/driftwatch/actions/workflows/ci.yml/badge.svg)](https://github.com/Swakie35/driftwatch/actions/workflows/ci.yml)
+
 ### Spot changes in incoming ML features before they're hidden inside a dashboard.
 
 I wanted a lightweight way to explain *why* a model-monitoring alert fired. Driftwatch compares reference and current data windows, runs population stability index (PSI) on numerical features and Jensen–Shannon divergence on categorical ones, and emits an inspection-friendly JSON report with per-feature thresholds.
